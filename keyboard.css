@@ -25,7 +25,7 @@ body{
 .key{
   width: 40px; height:40px;
   display: block;
-  background-color:#333;
+  background-color:#222;
   text-align: left;
   padding-left: 8px;
   line-height: 29px;
@@ -38,12 +38,15 @@ body{
 
 .backspace {
 	width:84px; 
-	font-size: 12px;}
+	font-size: 12px;
+	background-color: #444;
+	}
 
 .tab {
 	width: 50px; 
 	line-height: 40px; 
 	font-size:13px;
+	background-color: #444;
 }
 
 .letter{
@@ -55,12 +58,14 @@ body{
 	line-height:40px; 
 	text-align: center; 
 	padding-left:0;
+	background-color: #444;
 }
 
 .shift.left{
 	width: 90px;
 	line-height: 40px; 
 	font-size:13px;
+	background-color: #444; 
 }
 
 .space{
@@ -77,5 +82,5 @@ body{
 }
 
 .key:active{
-	background-color:#000000;
+	background-color:#555;
 }
