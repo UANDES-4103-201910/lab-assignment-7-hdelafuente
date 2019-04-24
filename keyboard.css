@@ -1,3 +1,71 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+body{
+  background-color: #FFFFFF; 
+}
+
+
+.keyboard{
+  width:100%; height: 320px;
+  background-color: #FFFFFF;
+  margin: 0px auto;
+  border-radius: 9px;
+  padding: 30px;
+  color: #eee;
+  align-content: center;
+}
+
+.key{
+  width: 40px; height:40px;
+  display:block;
+  background-color:#333;
+  text-align: left;
+  padding-left: 8px;
+  line-height: 29px;
+  border-radius:2px;
+  float:left; margin-left: 2px;
+  margin-bottom:2px;
+  cursor: pointer;
+  transition: box-shadow 0.7s ease;
+}
+
+.backspace {
+	width:84px; 
+	font-size: 12px;}
+
+.tab {
+	width: 50px; 
+	line-height: 40px; 
+	font-size:13px;
+}
+
+.letter{
+	width:30px;
+}
+
+.enter{
+	width:92px; 
+	line-height:40px; 
+	text-align: center; 
+	padding-left:0;
+}
+
+.shift.left{
+	width: 90px;
+	line-height: 40px; 
+	font-size:13px;
+}
+
+.space{
+	width:300px;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+.key:hover{
+	box-shadow:0px 0px 10px #14B524; 
+	z-index:1000;
+}
